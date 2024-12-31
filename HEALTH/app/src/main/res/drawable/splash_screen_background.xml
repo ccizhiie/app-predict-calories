@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Latar belakang SplashScreen (warna putih) -->
+    <item android:drawable="@android:color/white" />
+    <!-- Logo aplikasi di tengah -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/logo" />
+    </item>
+</layer-list>

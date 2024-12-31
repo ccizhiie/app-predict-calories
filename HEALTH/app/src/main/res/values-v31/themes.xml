@@ -1,0 +1,11 @@
+<resources>
+    <!-- Tema untuk perangkat dengan API 31+ -->
+    <style name="Theme.HEALTH.Splash" parent="Theme.SplashScreen">
+        <!-- Warna latar belakang splash screen -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <!-- Logo yang ditampilkan di tengah splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <!-- Tema utama setelah splash selesai -->
+        <item name="postSplashScreenTheme">@style/Theme.HEALTH</item>
+    </style>
+</resources>

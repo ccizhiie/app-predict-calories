@@ -1,0 +1,12 @@
+<resources>
+    <!-- Tema untuk perangkat di bawah API 31 -->
+    <style name="Theme.HEALTH.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Drawable splash screen -->
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <!-- Tema utama aplikasi -->
+    <style name="Theme.HEALTH" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+</resources>
